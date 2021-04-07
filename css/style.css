@@ -8,6 +8,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--main-text-color);
+  background-color: ;
 }
 
 .logo {
@@ -86,6 +87,7 @@ body {
   font-size: 16px;
   line-height: 1.87;
   display: flex;
+  cursor: pointer;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
@@ -132,6 +134,55 @@ body {
   color: var(--title-text-color);
 }
 
+/* заголовок, который нужно скрыть */
+.hide {
+  display: none;
+}
+
+.filters-list {
+  list-style: none;
+}
+
+.filter-button {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+
+.project-cards {
+  list-style: none;
+}
+
+.link-card {
+  text-decoration: none;
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
+}
+
+.filter-title {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+
 .footer {
   background-color: var(--background-color);
 }
@@ -148,7 +199,12 @@ body {
 .address-link {
   font-size: 14px;
   line-height: 1.71;
-  font-style: normal;
   letter-spacing: 0.03em;
+  text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.address-link:hover,
+.address-link:focus {
+  color: var(--accent-color);
 }
