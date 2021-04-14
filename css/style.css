@@ -21,9 +21,6 @@ body {
   background-color: var(--secondary-text-color);
 }
 
-.container {
-}
-
 .logo {
   font-family: Raleway;
   font-size: 26px;
