@@ -6,10 +6,22 @@
   --secondary-text-color: #ffffff;
 }
 
+html {
+  box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--main-text-color);
   background-color: var(--secondary-text-color);
+}
+
+.container {
 }
 
 .logo {
